@@ -1,0 +1,82 @@
+// Created from ESLint Starter: https://github.com/DominikSerafin/eslint-starter
+// ESLint Docs: http://eslint.org/docs/rules/
+
+{
+
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true,
+    }
+  },
+
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "shared-node-browser": true,
+    "es6": true,
+  },
+
+  //"globals": {
+  //  // e.g. "Vue": true
+  //},
+
+  "plugins": [
+    "react", // eslint-plugin-react needs to be installed
+  ],
+
+  "extends": "eslint:recommended",
+
+  "rules": {
+
+    ////////// React //////////
+
+    "react/display-name": [1],
+    "react/forbid-component-props": [1],
+    "react/no-children-prop": [1],
+    "react/no-deprecated": [2],
+    "react/no-did-mount-set-state": [1],
+    "react/no-did-update-set-state": [2],
+    "react/no-direct-mutation-state": [1],
+    "react/no-typos": [2],
+    "react/no-unescaped-entities": [1],
+    "react/no-unknown-property": [1],
+    "react/no-will-update-set-state": [2],
+    "react/sort-comp": [1, { order: ['initialState', 'static-methods', 'lifecycle', 'everything-else', 'render'] }],
+    "react/void-dom-elements-no-children": [2],
+
+    ////////// React JSX //////////
+
+    "react/jsx-no-target-blank": [1],
+    "react/jsx-uses-vars": [1],
+
+    ////////// Possible Errors //////////
+
+    ////////// Best Practices //////////
+
+    ////////// Strict Mode //////////
+
+    ////////// Variables //////////
+
+    "no-unused-vars": [1, { args: "none" }],
+
+    ////////// Node.js and CommonJS //////////
+
+    ////////// Stylistic Issues //////////
+
+    "indent": [1, 2, {
+      "SwitchCase": 1
+    }],
+
+    "quotes": [1, "single", {
+      "avoidEscape": true,
+      "allowTemplateLiterals": true
+    }],
+
+    ////////// ECMAScript 6 //////////
+
+  }
+
+}
