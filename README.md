@@ -1,7 +1,5 @@
 # avsb
 
-## About
-
 AvsB is a little tool to vote between two images. You can use it to get feedback for your latest drawing/mockup/photo/UI/whatever.
 
 
