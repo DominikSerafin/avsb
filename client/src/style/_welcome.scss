@@ -1,0 +1,152 @@
+
+.welcome {
+    //cursor: zoom-out;
+}
+
+  .welcome-backdrop {
+
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 300;
+    background: rgba(black,.97);
+  }
+
+  .welcome-content {
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 301;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    text-align: center;
+
+
+    &::before {
+      content: '';
+      box-sizing: border-box;
+      display: inline-block;
+      width: 0px;
+      height: 100%;
+      vertical-align: middle;
+    }
+
+  }
+
+
+
+  .welcome-close {
+    position: fixed;
+    bottom: 0;
+    //left: 50%;
+    //transform: translateX(-50%);
+    padding: 19px 15px 12px 15px;
+    font-size: 14px;
+    line-height: 1;
+    outline: none;
+
+    font-weight: 400;
+    text-align: center;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+    text-transform: uppercase;
+
+    color: rgba(white,.5);
+
+    &:focus {
+      background: rgba(white,.1);
+    }
+
+    &:hover {
+      color: rgba(white,.9);
+    }
+
+    z-index: 2002;
+  }
+
+
+  .welcome-content-inner {
+
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    //z-index: 302;
+
+    color: black;
+    font-size: 50px;
+    padding: 20px;
+
+
+    color: white;
+
+    img {
+      //margin-top: 10px;
+      //margin-bottom: 30px;
+      max-width: 100%;
+    }
+
+
+    line-height: 1.3;
+    font-size: 17px;
+
+    max-width: 600px;
+    text-align: center;
+
+    h1 {
+      font-size: 40px;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 50px;
+    }
+
+
+    ul {
+      font-size: 17px;
+      margin-top: 5px;
+      list-style: none;
+    }
+
+    li {
+
+    }
+
+    p {
+      font-size: 17px;
+      margin-top: 5px;
+    }
+
+
+    a {
+      text-decoration: underline;
+    }
+  }
+
+
+
+
+  .welcome-text-close {
+    font-size: 17px;
+    color: rgba(white,.8);
+    margin-top: 50px;
+    padding: 10px 20px;
+    transition: color 80ms ease-out;
+
+    &:hover {
+      color: rgba(white,1);
+    }
+  }

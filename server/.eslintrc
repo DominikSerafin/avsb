@@ -1,0 +1,61 @@
+// Created from ESLint Starter: https://github.com/DominikSerafin/eslint-starter
+// ESLint Docs: http://eslint.org/docs/rules/
+
+{
+
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "script",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+    }
+  },
+
+  "env": {
+    "commonjs": true,
+    "node": true,
+    "es6": true,
+  },
+
+  //"globals": {
+  //  // e.g. "Vue": true
+  //},
+
+  //"plugins": [
+  //  "react", // eslint-plugin-react needs to be installed
+  //],
+
+  "extends": "eslint:recommended",
+
+  "rules": {
+
+    ////////// Possible Errors //////////
+    
+    no-console: [1, { allow: ["warn", "error"] }],
+
+    ////////// Best Practices //////////
+
+    ////////// Strict Mode //////////
+
+    ////////// Variables //////////
+
+    "no-unused-vars": [1, { args: "none" }],
+
+    ////////// Node.js and CommonJS //////////
+
+    ////////// Stylistic Issues //////////
+
+    "indent": [1, 2, {
+      "SwitchCase": 1
+    }],
+
+    "quotes": [1, "single", {
+      "avoidEscape": true,
+      "allowTemplateLiterals": true
+    }],
+
+    ////////// ECMAScript 6 //////////
+
+  }
+
+}

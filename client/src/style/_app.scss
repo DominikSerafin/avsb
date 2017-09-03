@@ -1,0 +1,29 @@
+
+#app {
+}
+
+.app-root {
+  font-family: 'Cotham Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+
+.app-page {
+
+}
+
+
+.app-footer {
+  color: rgba(black,.3);
+  font-size: 14px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @media (max-width: 500px) {
+    a {
+      display: block;
+    }
+  }
+
+
+}
