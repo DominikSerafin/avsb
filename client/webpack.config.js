@@ -222,6 +222,7 @@ if (NODE_ENV === 'production') {
       title: 'AvsB',
       description: '',
       inject: true,
+      env: NODE_ENV,
       //hash: true,
       //minify: {
       //    html5: true,

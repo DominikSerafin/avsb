@@ -47,7 +47,7 @@ AvsB is a little tool to vote between two images. You can use it to get feedback
 * `application/resources/`: miscellaneous resources (static, images, files)
 * `application/test/`: mocha tests (not much needed really in such a small application - so it only tests if the config is alright)
 * `application/util/`: utilities, helpers & abstractions
-* `application/views`: views for the routes declared in `application/index.js`
+* `application/views/`: views for the routes declared in `application/index.js`
 
 
 
