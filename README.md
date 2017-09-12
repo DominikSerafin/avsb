@@ -53,6 +53,7 @@ AvsB is a little tool to vote between two images. You can use it to get feedback
 
 ## Todo (contributions welcome)
 
+* Implement Autotrack for Google Analytics (https://github.com/googleanalytics/autotrack)
 * Infinite scroll for "Explore" page.
 * Center vertically with `vertical-align` method (for IE<11) instead of Flexbox.
 * If the tool will get more traction then save users to database only before they vote for first time. That will prevent database getting spammed with all the visitors not interacting with site.
