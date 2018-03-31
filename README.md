@@ -53,6 +53,8 @@ AvsB is a little tool to vote between two images. You can use it to get feedback
 
 ## Todo (contributions welcome)
 
+* OG Image
+* Loading state after voting on image
 * Implement Autotrack for Google Analytics (https://github.com/googleanalytics/autotrack)
 * Infinite scroll for "Explore" page.
 * Center vertically with `vertical-align` method (for IE<11) instead of Flexbox.
